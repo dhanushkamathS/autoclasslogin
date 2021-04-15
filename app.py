@@ -6,20 +6,21 @@ import webbrowser
 
 
 def classLogger(classid):
-    url = 'https://zoom.us/j/'+str(classid)+'?from=join'
+   # url = 'https://zoom.us/j/'+str(classid)+'?from=join'
+    url = 'https://zoom.us/wc/join/'+str(classid)
     webbrowser.open_new_tab(url)
 
-    time.sleep(10)
+    time.sleep(7)
 
-    pyautogui.press('tab',presses=8)
+    # pyautogui.press('tab',presses=8)
+    # time.sleep(3)
+
+    # pyautogui.press('enter')
+
     time.sleep(3)
 
-    pyautogui.press('enter')
-
-    time.sleep(3)
-
     pyautogui.press('tab',presses=8)
-    time.sleep(2)
+    time.sleep(1)
 
     pyautogui.press('enter')
 
