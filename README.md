@@ -1,5 +1,6 @@
 # autoclasslogin
-helps smart students like us to log into class
+
+Since this pandemic has started, online classes have been on-trend. But after a while, it gets tiring for smart people to type the code and log into class this app makes the work easier by automatically logging us into class 
 
 initially keep the xlsx file which contains the class id in the same folder as autoclassloogin
 
